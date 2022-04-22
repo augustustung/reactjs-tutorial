@@ -1,0 +1,40 @@
+.page {
+    max-width: 651px;
+    margin: auto;
+
+    .page-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: space-between;
+        justify-content: space-around;
+
+
+        .child {
+            margin: 14px 11px;
+
+            .del {
+                cursor: pointer;
+
+
+            }
+
+            .delete {
+                margin: 0px 10px;
+            }
+        }
+
+        .change {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-content: space-around;
+
+            .edit {
+                width: 59px;
+                padding: 1px;
+                margin: 0 10px;
+            }
+        }
+    }
+}
